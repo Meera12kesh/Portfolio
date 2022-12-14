@@ -520,16 +520,20 @@ section {
   background-size: cover;
   min-height: 500px;
 }
-.about .skills {
+/*--------------------------------------------------------------
+# My Skills
+--------------------------------------------------------------*/
+
+.skills .skills {
   margin-top: 30px;
 }
-.about .skills .progress {
+.skills .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-.about .skills .progress .skill {
+.skills .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -538,14 +542,14 @@ section {
   font-family: "Raleway", sans-serif;
   color: #3b434a;
 }
-.about .skills .progress .skill .val {
+.skills .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
-.about .skills .progress-bar-wrap {
+.skills .skills .progress-bar-wrap {
   background: #e6e8eb;
 }
-.about .skills-content .progress-bar {
+.skills .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
