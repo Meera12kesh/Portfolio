@@ -520,20 +520,16 @@ section {
   background-size: cover;
   min-height: 500px;
 }
-/*--------------------------------------------------------------
-# My Skills
---------------------------------------------------------------*/
-
-.skills .skills {
+.about .skills-content {
   margin-top: 30px;
 }
-.skills .skills .progress {
+.about .skills-content .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-.skills .skills .progress .skill {
+.about .skills-content .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -542,18 +538,71 @@ section {
   font-family: "Raleway", sans-serif;
   color: #3b434a;
 }
-.skills .skills .progress .skill .val {
+.about .skills-content .progress .skill .val {
   float: right;
   font-style: normal;
 }
-.skills .skills .progress-bar-wrap {
+.about .skills-content .progress-bar-wrap {
   background: #e6e8eb;
 }
-.skills .skills .progress-bar {
+.about .skills-content .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
   background-color: #ffb727;
+}
+
+/*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffb727;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
 }
 
 /*--------------------------------------------------------------
